@@ -1,18 +1,5 @@
 [
     {
-      "condition": "minecraft:alternative",
-      "terms": [
-        {
-          "condition": "minecraft:reference",
-          "name": "tcc:lichen_zombie/lush_caves"
-        },
-        {
-          "condition": "minecraft:random_chance",
-          "chance": 0.05
-        }
-      ]
-    },
-    {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {

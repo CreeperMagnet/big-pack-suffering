@@ -93,7 +93,7 @@
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:reference",
-              "name": "tcc:full_inventory"
+              "name": "tcc:entity/full_inventory"
             }
           }
         ],

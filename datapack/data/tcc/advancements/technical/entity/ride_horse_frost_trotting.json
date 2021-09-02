@@ -16,7 +16,7 @@
             "condition": "minecraft:inverted",
             "term": {
               "condition": "minecraft:reference",
-              "name": "tcc:sneaking"
+              "name": "tcc:entity/sneaking"
             }
           }
         ],
