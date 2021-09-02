@@ -1,1 +1,18 @@
-{"pack":{"pack_format":7,"description":"datapack merged with §bmito.thenuclearnexus.live"}}
+{
+  "pack": {
+    "pack_format": 7,
+    "description": [
+      {
+        "text": "Big Pack Suffering",
+        "color": "#572121"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "1.0",
+        "color": "red"
+      }
+    ]
+  }
+}
