@@ -1,0 +1,40 @@
+{
+    "parent": "tcc:technical/root",
+    "criteria": {
+      "name_snail": {
+          "trigger": "minecraft:player_interacted_with_entity",
+          "conditions": {
+              "entity": [
+                  {
+                      "condition": "minecraft:entity_properties",
+                      "entity": "this",
+                      "predicate": {
+                          "nbt": "{Tags:[\"tcc.snail\"]}"
+                      }
+                  },
+                  {
+                      "condition": "minecraft:inverted",
+                      "term": {
+                          "condition": "minecraft:entity_properties",
+                          "entity": "this",
+                          "predicate": {
+                              "equipment": {
+                                  "head": {
+                                      "nbt": "{tcc:{storage:{model_items:[{tag:{CustomModelData:330022}}]}}}"
+                                  }
+                              }
+                          }
+                      }
+                  }
+              ],
+              "item": {
+                  "items": ["minecraft:name_tag"],
+                  "nbt": "{display:{Name:'{\"text\":\"Gary\"}'}}"
+              }
+          }
+      }
+    },
+    "rewards": {
+      "function": "tcc:entity/snail/name"
+    }
+}

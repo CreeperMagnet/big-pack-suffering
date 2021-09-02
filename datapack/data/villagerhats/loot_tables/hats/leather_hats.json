@@ -1,0 +1,21 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerhats:hats/eye_patch"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerhats:hats/fletcher_cap"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerhats:hats/shepherd_cap"
+        }
+      ]
+    }
+  ]
+}

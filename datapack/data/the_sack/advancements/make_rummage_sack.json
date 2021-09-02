@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:warped_fungus_on_a_stick",
+      "nbt": "{CustomModelData:410001}"
+    },
+    "title": {
+      "translate": "advancements.the_sack.make_rummage_sack.title"
+    },
+    "description": [
+      {
+        "translate": "advancements.the_sack.make_rummage_sack.description"
+      },
+      "\n\n",
+      {
+        "translate": "pack.the_sack",
+        "color": "#623220",
+        "italic": true
+      }
+    ],
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "minecraft:nether/obtain_blaze_rod",
+  "criteria": {
+    "craft_it": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "requirements": [
+    [
+      "craft_it"
+    ]
+  ]
+}

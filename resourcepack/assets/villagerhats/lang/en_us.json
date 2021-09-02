@@ -1,0 +1,27 @@
+{
+  "pack.villagerhats": "Villager Hats",
+  "pack.collaboration": "%s + %s",
+  "advancements.adventure.jack_of_all_trades.title": "Jack of All Trades",
+  "advancements.adventure.jack_of_all_trades.description": "Obtain every profession-based hat",
+  "advancements.adventure.wear_hat.title": "It's the Fashion...",
+  "advancements.adventure.wear_hat.description": "Wear a hat",
+  
+  "item.villagerhats.book_hat": "Book Hat",
+  "item.villagerhats.desert_cap": "Desert Cap",
+  "item.villagerhats.enchanter_turban": "Enchanter Turban",
+  "item.villagerhats.eye_patch": "Eye Patch",
+  "item.villagerhats.fishing_hat": "Fishing Hat",
+  "item.villagerhats.fletcher_cap": "Fletcher Cap",
+  "item.villagerhats.leaf_hat": "Leaf Hat",
+  "item.villagerhats.monocle": "Monocle",
+  "item.villagerhats.paleontologist_hat": "Paleontologist Hat",
+  "item.villagerhats.ribbon": "Ribbon",
+  "item.villagerhats.shepherd_cap": "Shepherd Cap",
+  "item.villagerhats.straw_hat": "Straw Hat",
+  "item.villagerhats.visor": "Visor",
+  "item.villagerhats.winter_hat": "Winter Hat",
+  "item.villagerhats.witch_hat": "Witch Hat",
+  "item.villagerhats.wreath": "Wreath",
+  
+  "villagerhats.load": "The Villager Hats data pack has successfully loaded!"
+}

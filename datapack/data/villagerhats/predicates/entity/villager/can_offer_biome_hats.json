@@ -1,0 +1,56 @@
+[
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{VillagerData:{level:2}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{VillagerData:{level:3}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{VillagerData:{level:4}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{VillagerData:{level:5}}"
+        }
+      }
+    ]
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:reference",
+        "name": "villagerhats:entity/villager/from_desert"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "villagerhats:entity/villager/from_savanna"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "villagerhats:entity/villager/from_snow"
+      },
+      {
+        "condition": "minecraft:reference",
+        "name": "villagerhats:entity/villager/from_swamp"
+      }
+    ]
+  }
+]

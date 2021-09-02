@@ -1,0 +1,6 @@
+{
+	"parent": "villagerhats:item/hat_template",
+  "textures": {
+    "0": "minecraft:entity/villager/type/savanna"
+  }
+}

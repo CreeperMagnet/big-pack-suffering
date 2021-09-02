@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "golden_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_apple"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/quest_book/healer/trigger/01"
+  },
+  "parent": "tcc:technical/root"
+}

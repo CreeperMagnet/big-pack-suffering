@@ -1,0 +1,13 @@
+{
+  "condition": "minecraft:alternative",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "tcc:location/world_height/extended"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "tcc:location/world_height/normal"
+    }
+  ]
+}

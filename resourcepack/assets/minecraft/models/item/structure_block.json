@@ -1,0 +1,749 @@
+{
+  "parent": "block/structure_block",
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 330000
+      },
+      "model": "tcc:item/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330001
+      },
+      "model": "tcc:gui/toasts/quests/item_complete"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330002
+      },
+      "model": "tcc:gui/toasts/quests/complete"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330003
+      },
+      "model": "tcc:block/snail_nest"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330004
+      },
+      "model": "tcc:item/boomerang_spinning"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330005
+      },
+      "model": "tcc:item/spectral_boomerang_spinning"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330006
+      },
+      "model": "tcc:item/gemstone/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330007
+      },
+      "model": "tcc:item/gemstone/pristine/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330008
+      },
+      "model": "tcc:item/gemstone/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330009
+      },
+      "model": "tcc:item/gemstone/pristine/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330010
+      },
+      "model": "tcc:item/gemstone/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330011
+      },
+      "model": "tcc:item/gemstone/pristine/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330012
+      },
+      "model": "tcc:item/gemstone/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330013
+      },
+      "model": "tcc:item/gemstone/pristine/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330014
+      },
+      "model": "tcc:item/gemstone/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330015
+      },
+      "model": "tcc:item/gemstone/pristine/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330016
+      },
+      "model": "tcc:item/gemstone/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330017
+      },
+      "model": "tcc:item/gemstone/pristine/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330018
+      },
+      "model": "tcc:item/gemstone/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330019
+      },
+      "model": "tcc:item/gemstone/pristine/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330020
+      },
+      "model": "tcc:item/gemstone/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330021
+      },
+      "model": "tcc:item/gemstone/pristine/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330022
+      },
+      "model": "tcc:item/warped_wart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330023
+      },
+      "model": "tcc:block/teapot_empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330024
+      },
+      "model": "tcc:item/teacup/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330025
+      },
+      "model": "tcc:block/frostbloom/grass"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330026
+      },
+      "model": "tcc:block/geomancer_pillar/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330027
+      },
+      "model": "tcc:block/geomancer_pillar/explosive"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330028
+      },
+      "model": "tcc:block/frostbloom/other"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330029
+      },
+      "model": "tcc:item/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330030
+      },
+      "model": "tcc:block/gobblerift/stage_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330031
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330032
+      },
+      "model": "tcc:block/gobblerift/stage_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330033
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330034
+      },
+      "model": "tcc:block/gobblerift/stage_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330035
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330036
+      },
+      "model": "tcc:block/gobblerift/stage_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330037
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330038
+      },
+      "model": "tcc:block/gobblerift/stage_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330039
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330040
+      },
+      "model": "tcc:block/gobblerift/stage_6_empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330041
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_6_empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330042
+      },
+      "model": "tcc:block/gobblerift/stage_6_digesting"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330043
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_6_digesting"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330044
+      },
+      "model": "tcc:block/gobblerift/stage_6_full"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330045
+      },
+      "model": "tcc:block/gobblerift/hurt/stage_6_full"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330046
+      },
+      "model": "tcc:block/phantom_item_frame"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330047
+      },
+      "model": "tcc:item/amethyst_dust"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330048
+      },
+      "model": "tcc:entity/coral_drowned/arm/brain"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330049
+      },
+      "model": "tcc:entity/coral_drowned/head/brain"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330050
+      },
+      "model": "tcc:entity/coral_drowned/arm/bubble"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330051
+      },
+      "model": "tcc:entity/coral_drowned/head/bubble"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330052
+      },
+      "model": "tcc:entity/coral_drowned/arm/fire"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330053
+      },
+      "model": "tcc:entity/coral_drowned/head/fire"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330054
+      },
+      "model": "tcc:entity/coral_drowned/arm/horn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330055
+      },
+      "model": "tcc:entity/coral_drowned/head/horn"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330056
+      },
+      "model": "tcc:entity/coral_drowned/arm/tube"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330057
+      },
+      "model": "tcc:entity/coral_drowned/head/tube"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330058
+      },
+      "model": "tcc:entity/lichen_zombie/arm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330059
+      },
+      "model": "tcc:entity/lichen_zombie/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330060
+      },
+      "model": "tcc:entity/sponge_drowned/arm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330061
+      },
+      "model": "tcc:entity/sponge_drowned/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400000
+      },
+      "model": "dnd:item/nothing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400001
+      },
+      "model": "dnd:item/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400002
+      },
+      "model": "dnd:item/dna_vial"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400003
+      },
+      "model": "dnd:item/upgrade_cartridge"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400006
+      },
+      "model": "dnd:item/compound_eyes"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400007
+      },
+      "model": "dnd:item/proboscis"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400008
+      },
+      "model": "dnd:item/tuft"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400009
+      },
+      "model": "dnd:item/amber_gemstone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400010
+      },
+      "model": "dnd:item/computer_chip"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423000
+      },
+      "model": "florcraft:item/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423001
+      },
+      "model": "florcraft:item/left_arrow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423002
+      },
+      "model": "florcraft:item/right_arrow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423003
+      },
+      "model": "florcraft:item/locked_recipe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423004
+      },
+      "model": "florcraft:item/essence_flask_empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423005
+      },
+      "model": "florcraft:item/knowledge_point"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423006
+      },
+      "model": "florcraft:item/arid_essence"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423007
+      },
+      "model": "florcraft:item/aqueous_essence"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423008
+      },
+      "model": "florcraft:item/verdant_essence"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423009
+      },
+      "model": "florcraft:item/druidic_scepter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423010
+      },
+      "model": "florcraft:block/pylon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423011
+      },
+      "model": "florcraft:item/ignition_rod"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423012
+      },
+      "model": "florcraft:item/frost_rod"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423013
+      },
+      "model": "florcraft:item/overgrowth_rod"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423014
+      },
+      "model": "florcraft:item/absorbloom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423015
+      },
+      "model": "florcraft:item/dispoppy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423016
+      },
+      "model": "florcraft:item/relilay"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423017
+      },
+      "model": "florcraft:block/absorbloom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423018
+      },
+      "model": "florcraft:block/dispoppy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423019
+      },
+      "model": "florcraft:block/relilay"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423020
+      },
+      "model": "florcraft:item/basic_rune"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423021
+      },
+      "model": "florcraft:block/mystical_furnace"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423022
+      },
+      "model": "florcraft:item/burning_scepter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423023
+      },
+      "model": "florcraft:item/blizzard_scepter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423024
+      },
+      "model": "florcraft:item/snare_scepter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423025
+      },
+      "model": "florcraft:item/ender_rift_scepter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423026
+      },
+      "model": "florcraft:item/barrier_scepter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423027
+      },
+      "model": "florcraft:item/mending_scepter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423028
+      },
+      "model": "florcraft:item/essence_vessel_empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423029
+      },
+      "model": "florcraft:block/runic_pylon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423030
+      },
+      "model": "florcraft:item/arid_alloy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423031
+      },
+      "model": "florcraft:item/aqueous_alloy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423032
+      },
+      "model": "florcraft:item/verdant_alloy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423033
+      },
+      "model": "florcraft:item/arid_pickaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423034
+      },
+      "model": "florcraft:block/arid_attuned_pylon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423035
+      },
+      "model": "florcraft:item/scorching_arc_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423036
+      },
+      "model": "florcraft:item/burning_fire_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423037
+      },
+      "model": "florcraft:item/raging_river_pickaxe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423038
+      },
+      "model": "florcraft:item/fortunate_seeker_shovel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423039
+      },
+      "model": "florcraft:item/bountiful_earth_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423040
+      },
+      "model": "florcraft:block/redstone_control_matrix"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423041
+      },
+      "model": "florcraft:item/advanced_rune"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423042
+      },
+      "model": "florcraft:item/spirit_binder_staff"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423043
+      },
+      "model": "florcraft:item/druidic_lauret"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423044
+      },
+      "model": "florcraft:item/reinforced_vessel_empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423045
+      },
+      "model": "florcraft:block/reinforced_pylon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423046
+      },
+      "model": "florcraft:item/mineroot_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423047
+      },
+      "model": "florcraft:block/mineroot_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423048
+      },
+      "model": "florcraft:item/charm_of_invocation"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423049
+      },
+      "model": "florcraft:item/arid_mastery_circlet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423050
+      },
+      "model": "florcraft:item/enchant_icon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423051
+      },
+      "model": "florcraft:item/enchant_icon_grey"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423052
+      },
+      "model": "florcraft:block/enchanting_station"
+    }
+  ]
+}

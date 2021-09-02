@@ -1,0 +1,2 @@
+execute if entity @s[type=#villagerhats:traders] run function villagerhats:entity/trader/5t
+data modify entity @s[type=#villagerhats:can_wear_hats,predicate=villagerhats:entity/wearing_hat] ArmorItems[3].id set value "minecraft:flower_banner_pattern"

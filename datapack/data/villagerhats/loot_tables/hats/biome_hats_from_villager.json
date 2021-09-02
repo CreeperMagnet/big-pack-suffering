@@ -1,0 +1,49 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerhats:hats/desert_cap",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "villagerhats:entity/villager/from_desert"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerhats:hats/leaf_hat",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "villagerhats:entity/villager/from_swamp"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerhats:hats/winter_hat",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "villagerhats:entity/villager/from_snow"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerhats:hats/wreath",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "villagerhats:entity/villager/from_savanna"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

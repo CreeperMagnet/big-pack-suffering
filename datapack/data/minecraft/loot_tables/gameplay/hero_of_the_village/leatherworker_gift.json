@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerhats:hats/biome_hats_from_villager",
+          "conditions": [
+            {
+              "condition": "minecraft:reference",
+              "name": "villagerhats:entity/villager/can_offer_biome_hats"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerhats:hats/eye_patch"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerhats:hats/fletcher_cap"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerhats:hats/shepherd_cap"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.125
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:leather"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "parent": "tcc:technical/root",
+  "criteria": {
+    "equip_cursed_crown": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "player": {
+          "equipment": {
+            "head": {
+              "items": [
+                "minecraft:golden_helmet"
+              ],
+              "nbt": "{tcc:{id:\"cursed_crown\"}}"
+            }
+          }
+        },
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_helmet"
+            ],
+            "nbt": "{tcc:{id:\"cursed_crown\"}}"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "tcc:item/cursed_crown/equip"
+  }
+}

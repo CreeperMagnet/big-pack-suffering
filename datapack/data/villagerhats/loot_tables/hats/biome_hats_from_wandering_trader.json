@@ -1,0 +1,25 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerhats:hats/desert_cap"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerhats:hats/leaf_hat"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerhats:hats/winter_hat"
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "villagerhats:hats/wreath"
+        }
+      ]
+    }
+  ]
+}

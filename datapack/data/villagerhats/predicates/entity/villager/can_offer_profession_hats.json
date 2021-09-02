@@ -1,0 +1,81 @@
+[
+  {
+    "condition": "minecraft:reference",
+    "name": "villagerhats:entity/villager/is_level_5"
+  },
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{VillagerData:{profession:\"minecraft:armorer\"}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{VillagerData:{profession:\"minecraft:butcher\"}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{VillagerData:{profession:\"minecraft:cartographer\"}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{VillagerData:{profession:\"minecraft:farmer\"}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{VillagerData:{profession:\"minecraft:fisherman\"}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{VillagerData:{profession:\"minecraft:fletcher\"}}"
+        }
+      },
+	  {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{VillagerData:{profession:\"minecraft:leatherworker\"}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{VillagerData:{profession:\"minecraft:librarian\"}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{VillagerData:{profession:\"minecraft:shepherd\"}}"
+        }
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "nbt": "{VillagerData:{profession:\"minecraft:weaponsmith\"}}"
+        }
+      }
+    ]
+  }
+]

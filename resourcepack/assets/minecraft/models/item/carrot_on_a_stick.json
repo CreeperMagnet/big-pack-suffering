@@ -1,0 +1,1304 @@
+{
+  "parent": "item/handheld_rod",
+  "textures": {
+    "layer0": "item/carrot_on_a_stick"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 330000
+      },
+      "model": "tcc:item/witch_hat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330001
+      },
+      "model": "tcc:item/cursed_crown"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330002
+      },
+      "model": "tcc:item/quest_book"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330003
+      },
+      "model": "tcc:item/complete_quest_book"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330004
+      },
+      "model": "tcc:item/boomerang"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330005
+      },
+      "model": "tcc:item/spectral_boomerang"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330006
+      },
+      "model": "tcc:item/peculiar_berries"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330007
+      },
+      "model": "tcc:item/obsidian_mirror"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330008
+      },
+      "model": "tcc:item/obsidian_scythe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330009
+      },
+      "model": "tcc:item/wrench"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330010
+      },
+      "model": "tcc:item/paintbrush/unused"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330011
+      },
+      "model": "tcc:item/paintbrush/black"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330012
+      },
+      "model": "tcc:item/paintbrush/blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330013
+      },
+      "model": "tcc:item/paintbrush/brown"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330014
+      },
+      "model": "tcc:item/paintbrush/cyan"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330015
+      },
+      "model": "tcc:item/paintbrush/gray"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330016
+      },
+      "model": "tcc:item/paintbrush/green"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330017
+      },
+      "model": "tcc:item/paintbrush/light_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330018
+      },
+      "model": "tcc:item/paintbrush/light_gray"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330019
+      },
+      "model": "tcc:item/paintbrush/lime"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330020
+      },
+      "model": "tcc:item/paintbrush/magenta"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330021
+      },
+      "model": "tcc:item/paintbrush/orange"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330022
+      },
+      "model": "tcc:item/paintbrush/pink"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330023
+      },
+      "model": "tcc:item/paintbrush/purple"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330024
+      },
+      "model": "tcc:item/paintbrush/red"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330025
+      },
+      "model": "tcc:item/paintbrush/white"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330026
+      },
+      "model": "tcc:item/paintbrush/yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330027
+      },
+      "model": "tcc:item/smoldering_seeker/unset"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330028
+      },
+      "model": "tcc:item/creeper_magnet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330029
+      },
+      "model": "tcc:item/teapot"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330030
+      },
+      "model": "tcc:item/frostbloom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330031
+      },
+      "model": "tcc:item/locket_of_learning/empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330032
+      },
+      "model": "tcc:item/locket_of_learning/filled_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330033
+      },
+      "model": "tcc:item/locket_of_learning/filled_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330034
+      },
+      "model": "tcc:item/locket_of_learning/filled_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330035
+      },
+      "model": "tcc:item/locket_of_learning/filled_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330036
+      },
+      "model": "tcc:item/locket_of_learning/filled_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330037
+      },
+      "model": "tcc:item/gobblerift"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330038
+      },
+      "model": "tcc:item/snail_bucket/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330039
+      },
+      "model": "tcc:item/photometer/lowest_light"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330040
+      },
+      "model": "tcc:item/photometer/low_light"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330041
+      },
+      "model": "tcc:item/photometer/high_light"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330042
+      },
+      "model": "tcc:item/photometer/highest_light"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330043
+      },
+      "model": "tcc:item/snail_bucket/black"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330044
+      },
+      "model": "tcc:item/snail_bucket/light_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330045
+      },
+      "model": "tcc:item/snail_bucket/skull"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330046
+      },
+      "model": "tcc:item/snail_bucket/spiral"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330047
+      },
+      "model": "tcc:item/snail_bucket/yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330048
+      },
+      "model": "tcc:item/snail_bucket/gary"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338000
+      },
+      "model": "tcc:item/ring/iron/gemstone/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338001
+      },
+      "model": "tcc:item/ring/iron/gemstone/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338002
+      },
+      "model": "tcc:item/ring/iron/gemstone/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338003
+      },
+      "model": "tcc:item/ring/iron/gemstone/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338004
+      },
+      "model": "tcc:item/ring/iron/gemstone/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338005
+      },
+      "model": "tcc:item/ring/iron/gemstone/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338006
+      },
+      "model": "tcc:item/ring/iron/gemstone/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338007
+      },
+      "model": "tcc:item/ring/iron/gemstone/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338008
+      },
+      "model": "tcc:item/ring/iron/gemstone/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338010
+      },
+      "model": "tcc:item/ring/golden/gemstone/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338011
+      },
+      "model": "tcc:item/ring/golden/gemstone/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338012
+      },
+      "model": "tcc:item/ring/golden/gemstone/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338013
+      },
+      "model": "tcc:item/ring/golden/gemstone/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338014
+      },
+      "model": "tcc:item/ring/golden/gemstone/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338015
+      },
+      "model": "tcc:item/ring/golden/gemstone/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338016
+      },
+      "model": "tcc:item/ring/golden/gemstone/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338017
+      },
+      "model": "tcc:item/ring/golden/gemstone/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338018
+      },
+      "model": "tcc:item/ring/golden/gemstone/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338020
+      },
+      "model": "tcc:item/ring/netherite/gemstone/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338021
+      },
+      "model": "tcc:item/ring/netherite/gemstone/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338022
+      },
+      "model": "tcc:item/ring/netherite/gemstone/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338023
+      },
+      "model": "tcc:item/ring/netherite/gemstone/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338024
+      },
+      "model": "tcc:item/ring/netherite/gemstone/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338025
+      },
+      "model": "tcc:item/ring/netherite/gemstone/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338026
+      },
+      "model": "tcc:item/ring/netherite/gemstone/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338027
+      },
+      "model": "tcc:item/ring/netherite/gemstone/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 338028
+      },
+      "model": "tcc:item/ring/netherite/gemstone/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339000
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339001
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339002
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339003
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339004
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339005
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339006
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339007
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339008
+      },
+      "model": "tcc:item/ring/iron/gemstone_and_potion/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339010
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339011
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339012
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339013
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339014
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339015
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339016
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339017
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339018
+      },
+      "model": "tcc:item/ring/golden/gemstone_and_potion/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339020
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/none"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339021
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/amethyst"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339022
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/diamond"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339023
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/emerald"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339024
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/ender_pearl"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339025
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/lapis_lazuli"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339026
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/obsidian"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339027
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/prismarine_crystal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 339028
+      },
+      "model": "tcc:item/ring/netherite/gemstone_and_potion/quartz"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400000
+      },
+      "model": "dnd:item/needle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400001
+      },
+      "model": "dnd:item/dna_needle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400002
+      },
+      "model": "dnd:item/embryo_needle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400003
+      },
+      "model": "dnd:item/monster_vat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400004
+      },
+      "model": "dnd:item/brush"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400005
+      },
+      "model": "dnd:item/exposed_brush"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400006
+      },
+      "model": "dnd:item/weathered_brush"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400007
+      },
+      "model": "dnd:item/oxidized_brush"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400008
+      },
+      "model": "dnd:item/chisel"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400009
+      },
+      "model": "dnd:item/amber_staff"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400010
+      },
+      "model": "dnd:item/fossil_stand"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 401001
+      },
+      "model": "dnd:item/parrot_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 401002
+      },
+      "model": "dnd:item/dodo_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 402001
+      },
+      "model": "dnd:item/bee_ootheca"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 402002
+      },
+      "model": "dnd:item/spider_ootheca"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 402003
+      },
+      "model": "dnd:item/cave_spider_ootheca"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 402004
+      },
+      "model": "dnd:item/silverfish_ootheca"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 402005
+      },
+      "model": "dnd:item/endermite_ootheca"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 403001
+      },
+      "model": "dnd:item/axolotl_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 404001
+      },
+      "model": "dnd:item/cod_roe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 404002
+      },
+      "model": "dnd:item/salmon_roe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 404003
+      },
+      "model": "dnd:item/tropical_fish_roe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 404004
+      },
+      "model": "dnd:item/pufferfish_roe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 404005
+      },
+      "model": "dnd:item/squid_roe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 404006
+      },
+      "model": "dnd:item/glow_squid_roe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 404007
+      },
+      "model": "dnd:item/shulker_roe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 405000
+      },
+      "model": "dnd:item/dinosaur_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 405001
+      },
+      "model": "dnd:item/acrocanthosaurus_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 405002
+      },
+      "model": "dnd:item/concavenator_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 405003
+      },
+      "model": "dnd:item/corythosaurus_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 405004
+      },
+      "model": "dnd:item/gallimimus_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 405005
+      },
+      "model": "dnd:item/tyrannosaurus_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 405006
+      },
+      "model": "dnd:item/compsognathus_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 405007
+      },
+      "model": "dnd:item/ankylosaurus_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 405008
+      },
+      "model": "dnd:item/pachycephalosaurus_egg"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408000
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408010
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 408020
+      },
+      "model": "tcc_compat:tcc/item/ring/netherite/gemstone/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409000
+      },
+      "model": "tcc_compat:tcc/item/ring/iron/gemstone_and_potion/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409010
+      },
+      "model": "tcc_compat:tcc/item/ring/golden/gemstone_and_potion/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409020
+      },
+      "model": "tcc_compat:tcc/item/ring/netherite/gemstone_and_potion/dnd/amber"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423000
+      },
+      "model": "florcraft:item/essence_flask_empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423001
+      },
+      "model": "florcraft:item/essence_flask_arid_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423002
+      },
+      "model": "florcraft:item/essence_flask_arid_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423003
+      },
+      "model": "florcraft:item/essence_flask_arid_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423004
+      },
+      "model": "florcraft:item/essence_flask_aqueous_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423005
+      },
+      "model": "florcraft:item/essence_flask_aqueous_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423006
+      },
+      "model": "florcraft:item/essence_flask_aqueous_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423007
+      },
+      "model": "florcraft:item/essence_flask_verdant_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423008
+      },
+      "model": "florcraft:item/essence_flask_verdant_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423009
+      },
+      "model": "florcraft:item/essence_flask_verdant_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423010
+      },
+      "model": "florcraft:item/ignition_rod"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423011
+      },
+      "model": "florcraft:item/frost_rod"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423012
+      },
+      "model": "florcraft:item/overgrowth_rod"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423013
+      },
+      "model": "florcraft:anim/overgrown_vine"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423014
+      },
+      "model": "florcraft:item/absorbloom"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423015
+      },
+      "model": "florcraft:item/dispoppy"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423016
+      },
+      "model": "florcraft:item/relilay"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423017
+      },
+      "model": "florcraft:item/burning_scepter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423018
+      },
+      "model": "florcraft:item/blizzard_scepter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423019
+      },
+      "model": "florcraft:item/snare_scepter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423020
+      },
+      "model": "florcraft:item/ender_rift_scepter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423021
+      },
+      "model": "florcraft:item/barrier_scepter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423022
+      },
+      "model": "florcraft:item/mending_scepter"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423024
+      },
+      "model": "florcraft:item/essence_vessel_empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423025
+      },
+      "model": "florcraft:item/essence_vessel_arid_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423026
+      },
+      "model": "florcraft:item/essence_vessel_arid_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423027
+      },
+      "model": "florcraft:item/essence_vessel_arid_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423028
+      },
+      "model": "florcraft:item/essence_vessel_arid_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423029
+      },
+      "model": "florcraft:item/essence_vessel_arid_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423030
+      },
+      "model": "florcraft:item/essence_vessel_aqueous_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423031
+      },
+      "model": "florcraft:item/essence_vessel_aqueous_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423032
+      },
+      "model": "florcraft:item/essence_vessel_aqueous_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423033
+      },
+      "model": "florcraft:item/essence_vessel_aqueous_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423034
+      },
+      "model": "florcraft:item/essence_vessel_aqueous_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423035
+      },
+      "model": "florcraft:item/essence_vessel_verdant_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423036
+      },
+      "model": "florcraft:item/essence_vessel_verdant_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423037
+      },
+      "model": "florcraft:item/essence_vessel_verdant_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423038
+      },
+      "model": "florcraft:item/essence_vessel_verdant_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423039
+      },
+      "model": "florcraft:item/essence_vessel_verdant_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423040
+      },
+      "model": "florcraft:item/spirit_binder_staff"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423041
+      },
+      "model": "florcraft:item/druidic_lauret"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423042
+      },
+      "model": "florcraft:item/reinforced_vessel_empty"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423043
+      },
+      "model": "florcraft:item/reinforced_vessel_arid_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423044
+      },
+      "model": "florcraft:item/reinforced_vessel_arid_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423045
+      },
+      "model": "florcraft:item/reinforced_vessel_arid_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423046
+      },
+      "model": "florcraft:item/reinforced_vessel_arid_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423047
+      },
+      "model": "florcraft:item/reinforced_vessel_arid_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423048
+      },
+      "model": "florcraft:item/reinforced_vessel_aqueous_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423049
+      },
+      "model": "florcraft:item/reinforced_vessel_aqueous_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423050
+      },
+      "model": "florcraft:item/reinforced_vessel_aqueous_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423051
+      },
+      "model": "florcraft:item/reinforced_vessel_aqueous_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423052
+      },
+      "model": "florcraft:item/reinforced_vessel_aqueous_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423053
+      },
+      "model": "florcraft:item/reinforced_vessel_verdant_1"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423054
+      },
+      "model": "florcraft:item/reinforced_vessel_verdant_2"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423055
+      },
+      "model": "florcraft:item/reinforced_vessel_verdant_3"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423056
+      },
+      "model": "florcraft:item/reinforced_vessel_verdant_4"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423057
+      },
+      "model": "florcraft:item/reinforced_vessel_verdant_5"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423058
+      },
+      "model": "florcraft:item/mineroot_sapling"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423059
+      },
+      "model": "florcraft:item/charm_of_invocation"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423060
+      },
+      "model": "florcraft:item/arid_mastery_circlet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423061
+      },
+      "model": "florcraft:item/aqueous_mastery_circlet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423062
+      },
+      "model": "florcraft:item/verdant_mastery_circlet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423063
+      },
+      "model": "florcraft:entity/arid_guardian_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423064
+      },
+      "model": "florcraft:entity/arid_guardian_body"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423065
+      },
+      "model": "florcraft:entity/arid_guardian_body_attacking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423066
+      },
+      "model": "florcraft:entity/aqueous_guardian_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423067
+      },
+      "model": "florcraft:entity/aqueous_guardian_body"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423068
+      },
+      "model": "florcraft:entity/aqueous_guardian_body_attacking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423069
+      },
+      "model": "florcraft:entity/verdant_guardian_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423070
+      },
+      "model": "florcraft:entity/verdant_guardian_body"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423071
+      },
+      "model": "florcraft:entity/verdant_guardian_body_attacking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 423072
+      },
+      "model": "florcraft:entity/verdant_guardian_body_attacked"
+    }
+  ]
+}

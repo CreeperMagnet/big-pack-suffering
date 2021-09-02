@@ -1,0 +1,41 @@
+{
+  "criteria": {
+    "hat_picked_up_by_entity": {
+      "trigger": "minecraft:thrown_item_picked_up_by_entity",
+      "conditions": {
+        "entity": {
+          "type": "#villagerhats:can_wear_hats"
+        },
+        "item": {
+          "items": [
+            "minecraft:leather_helmet"
+          ],
+          "nbt": "{villagerhats:{}}"
+        }
+      }
+    },
+    "hat_used_on_armor_stand": {
+      "trigger": "minecraft:player_interacted_with_entity",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:leather_helmet"
+          ],
+          "nbt": "{villagerhats:{}}"
+        },
+        "entity": {
+          "type": "minecraft:armor_stand"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hat_used_on_armor_stand",
+      "hat_picked_up_by_entity"
+    ]
+  ],
+  "rewards": {
+    "function": "villagerhats:item/hat/entity_equip"
+  }
+}

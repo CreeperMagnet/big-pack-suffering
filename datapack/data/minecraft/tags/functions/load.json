@@ -1,0 +1,11 @@
+{
+  "values": [
+    "florcraft:load",
+    "villagerhats:technical/load",
+    "the_sack:load",
+    "tcc:technical/load",
+    "abcl:load",
+    "dnd:technical/load",
+    "qcb:load"
+  ]
+}

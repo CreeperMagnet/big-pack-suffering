@@ -1,0 +1,458 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "minecraft:item/leather_horse_armor"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 330000
+      },
+      "model": "tcc:block/teapot_full"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330001
+      },
+      "model": "tcc:entity/enchanter/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330002
+      },
+      "model": "tcc:entity/enchanter/walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330003
+      },
+      "model": "tcc:entity/enchanter/spell"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330004
+      },
+      "model": "tcc:entity/enchanter/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330005
+      },
+      "model": "tcc:entity/geomancer/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330006
+      },
+      "model": "tcc:entity/geomancer/walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330007
+      },
+      "model": "tcc:entity/geomancer/spell"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330008
+      },
+      "model": "tcc:entity/geomancer/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330009
+      },
+      "model": "tcc:entity/iceologer/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330010
+      },
+      "model": "tcc:entity/iceologer/walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330011
+      },
+      "model": "tcc:entity/iceologer/spell"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330012
+      },
+      "model": "tcc:entity/iceologer/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330013
+      },
+      "model": "tcc:entity/passive_witch/idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330014
+      },
+      "model": "tcc:entity/passive_witch/walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330015
+      },
+      "model": "tcc:entity/passive_witch/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330016
+      },
+      "model": "tcc:entity/snail/normal"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330017
+      },
+      "model": "tcc:entity/snail/black"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330018
+      },
+      "model": "tcc:entity/snail/light_blue"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330019
+      },
+      "model": "tcc:entity/snail/skull"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330020
+      },
+      "model": "tcc:entity/snail/spiral"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330021
+      },
+      "model": "tcc:entity/snail/yellow"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 330022
+      },
+      "model": "tcc:entity/snail/gary"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400001
+      },
+      "model": "dnd:entity/adult_acrocanthosaurus_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400002
+      },
+      "model": "dnd:entity/adult_acrocanthosaurus_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400003
+      },
+      "model": "dnd:entity/baby_acrocanthosaurus_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400004
+      },
+      "model": "dnd:entity/baby_acrocanthosaurus_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400005
+      },
+      "model": "dnd:entity/adult_concavenator_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400006
+      },
+      "model": "dnd:entity/adult_concavenator_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400007
+      },
+      "model": "dnd:entity/baby_concavenator_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400008
+      },
+      "model": "dnd:entity/baby_concavenator_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400009
+      },
+      "model": "dnd:entity/adult_corythosaurus_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400010
+      },
+      "model": "dnd:entity/adult_corythosaurus_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400011
+      },
+      "model": "dnd:entity/baby_corythosaurus_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400012
+      },
+      "model": "dnd:entity/baby_corythosaurus_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400013
+      },
+      "model": "dnd:entity/adult_gallimimus_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400014
+      },
+      "model": "dnd:entity/adult_gallimimus_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400015
+      },
+      "model": "dnd:entity/baby_gallimimus_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400016
+      },
+      "model": "dnd:entity/baby_gallimimus_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400017
+      },
+      "model": "dnd:entity/adult_tyrannosaurus_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400018
+      },
+      "model": "dnd:entity/adult_tyrannosaurus_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400019
+      },
+      "model": "dnd:entity/baby_tyrannosaurus_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400020
+      },
+      "model": "dnd:entity/baby_tyrannosaurus_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400021
+      },
+      "model": "dnd:entity/adult_compsognathus_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400022
+      },
+      "model": "dnd:entity/adult_compsognathus_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400023
+      },
+      "model": "dnd:entity/baby_compsognathus_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400024
+      },
+      "model": "dnd:entity/baby_compsognathus_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400025
+      },
+      "model": "dnd:entity/adult_ankylosaurus_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400026
+      },
+      "model": "dnd:entity/adult_ankylosaurus_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400027
+      },
+      "model": "dnd:entity/baby_ankylosaurus_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400028
+      },
+      "model": "dnd:entity/baby_ankylosaurus_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400029
+      },
+      "model": "dnd:entity/adult_pachycephalosaurus_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400030
+      },
+      "model": "dnd:entity/adult_pachycephalosaurus_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400031
+      },
+      "model": "dnd:entity/baby_pachycephalosaurus_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400032
+      },
+      "model": "dnd:entity/baby_pachycephalosaurus_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400033
+      },
+      "model": "dnd:entity/adult_dodo_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400034
+      },
+      "model": "dnd:entity/adult_dodo_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400035
+      },
+      "model": "dnd:entity/baby_dodo_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 400036
+      },
+      "model": "dnd:entity/baby_dodo_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409001
+      },
+      "model": "dnd:entity/ambermancer/ambermancer_head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409002
+      },
+      "model": "dnd:entity/ambermancer/ambermancer_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409003
+      },
+      "model": "dnd:entity/ambermancer/ambermancer_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409004
+      },
+      "model": "dnd:entity/ambermancer/ambermancer_arms_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409005
+      },
+      "model": "dnd:entity/ambermancer/ambermancer_arms_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409007
+      },
+      "model": "dnd:entity/ambermancer/amber_dragonfly_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409008
+      },
+      "model": "dnd:entity/ambermancer/amber_dragonfly_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409009
+      },
+      "model": "dnd:entity/ambermancer/amber_mammal_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409010
+      },
+      "model": "dnd:entity/ambermancer/amber_mammal_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409011
+      },
+      "model": "dnd:entity/ambermancer/amber_mosquito_idle"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409012
+      },
+      "model": "dnd:entity/ambermancer/amber_mosquito_walking"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409013
+      },
+      "model": "dnd:entity/paleontologist/head"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409014
+      },
+      "model": "dnd:entity/paleontologist/body"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409015
+      },
+      "model": "dnd:entity/paleontologist/head_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409016
+      },
+      "model": "dnd:entity/paleontologist/body_hurt"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 409999
+      },
+      "model": "dnd:item/nothing"
+    }
+  ]
+}
