@@ -54,8 +54,56 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "minecraft:sand"
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:loot_table",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "nbt": "{Enchantments:[{id:\"minecraft:fortune\"}]}"
+                  }
+                },
+                {
+                  "condition": "minecraft:inverted",
+                  "term": {
+                    "condition": "minecraft:match_tool",
+                    "predicate": {
+                      "tag": "tcc:nonshovel_fortune_tools"
+                    }
+                  }
+                },
+                {
+                  "condition": "minecraft:table_bonus",
+                  "enchantment": "minecraft:fortune",
+                  "chances": [
+                    0,
+                    0.2,
+                    0.35,
+                    0.5
+                  ]
+                }
+              ],
+              "name": "tcc:blocks/sand_fortune"
+            },
+            {
+              "type": "minecraft:loot_table",
+              "name": "dnd:gameplay/paleontology/sand/main",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "nbt": "{dnd:{id:\"brush\"}}"
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:sand"
+            }
+          ]
         }
       ],
       "conditions": [

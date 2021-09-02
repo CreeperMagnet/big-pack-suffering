@@ -35,6 +35,18 @@
           "name": "tcc:blocks/red_sand_fortune"
         },
         {
+          "type": "minecraft:loot_table",
+          "name": "dnd:gameplay/paleontology/sand/main",
+          "conditions": [
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "nbt": "{dnd:{id:\"brush\"}}"
+              }
+            }
+          ]
+        },
+        {
           "type": "minecraft:item",
           "conditions": [{
             "condition": "minecraft:survives_explosion"

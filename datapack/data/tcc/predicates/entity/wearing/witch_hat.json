@@ -1,11 +1,29 @@
-{
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-        "equipment": {
+[
+  {
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
             "head": {
-                "nbt": "{tcc:{id:\"witch_hat\"}}"
+              "nbt": "{tcc:{id:\"witch_hat\"}}"
             }
+          }
         }
-    }
-}
+      },
+      {
+        "condition": "minecraft:entity_properties",
+        "entity": "this",
+        "predicate": {
+          "equipment": {
+            "head": {
+              "nbt": "{villagerhats:{id:\"witch_hat\"}}"
+            }
+          }
+        }
+      }
+    ]
+  }
+]
