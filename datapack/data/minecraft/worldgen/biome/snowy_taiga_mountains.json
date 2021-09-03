@@ -69,12 +69,11 @@
     ],
     [
       "minecraft:patch_large_fern",
-      
+
       "terralith:taiga/trees_tall",
       "terralith:taiga/mid/trees_mid",
       "terralith:taiga/small/trees_small",
       "terralith:taiga/tiny/trees_tiny",
-      "terralith:taiga/fence_trees",
       "minecraft:flower_default",
       "minecraft:patch_grass_taiga_2",
       "minecraft:brown_mushroom_taiga",
