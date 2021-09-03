@@ -120,8 +120,8 @@
     "minecraft:igloo",
     "minecraft:mineshaft",
     "minecraft:stronghold",
-    "minecraft:pillager_outpost",
-    "minecraft:ruined_portal"
+    "minecraft:ruined_portal",
+    "tcc:tundra_keep"
   ],
   "creature_spawn_probability": 0.07,
   "spawners": {

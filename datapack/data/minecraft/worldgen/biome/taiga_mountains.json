@@ -1,5 +1,5 @@
 {
-  "scale": 0.4,
+  "scale": 0.75,
   "effects": {
     "mood_sound": {
       "sound": "minecraft:ambient.cave",
@@ -15,8 +15,12 @@
   "surface_builder": "minecraft:grass",
   "carvers": {
     "air": [
-      "minecraft:cave",
-      "minecraft:canyon"
+      "terralith:noodle_ravine",
+      "terralith:flat_cave",
+      "terralith:tall_cave",
+      "minecraft:prototype_cave",
+      "minecraft:prototype_canyon",
+"terralith:big_cave_entrance"
     ]
   },
   "features": [
@@ -33,32 +37,41 @@
     [],
     [],
     [
-      "minecraft:ore_dirt",
-      "minecraft:ore_gravel",
-      "minecraft:ore_granite",
-      "minecraft:ore_diorite",
-      "minecraft:ore_andesite",
-      "minecraft:ore_tuff",
-      "minecraft:ore_deepslate",
-      "minecraft:ore_coal",
-      "minecraft:ore_iron",
-      "minecraft:ore_gold",
-      "minecraft:ore_redstone",
-      "minecraft:ore_diamond",
-      "minecraft:ore_lapis",
-      "minecraft:ore_copper",
+"minecraft:prototype_ore_dirt",
+      "minecraft:prototype_ore_gravel",
+      "minecraft:prototype_ore_granite",
+      "minecraft:prototype_ore_diorite",
+      "minecraft:prototype_ore_andesite",
+      "minecraft:prototype_ore_tuff",
+      "minecraft:prototype_ore_coal_upper",
+      "minecraft:prototype_ore_coal_lower",
+      "minecraft:prototype_ore_iron_upper",
+      "minecraft:prototype_ore_iron_middle",
+      "minecraft:prototype_ore_iron_small",
+      "minecraft:prototype_ore_gold",
+      "minecraft:prototype_ore_redstone",
+      "minecraft:prototype_ore_redstone_lower",
+      "minecraft:prototype_ore_diamond",
+      "minecraft:ore_diamond_strip_mine",
+      "minecraft:prototype_ore_diamond_large",
+      "minecraft:prototype_ore_lapis",
+      "minecraft:prototype_ore_lapis_buried",
+      "minecraft:prototype_ore_copper",
+      "minecraft:prototype_underwater_magma",
       "minecraft:disk_sand",
       "minecraft:disk_clay",
-      "minecraft:disk_gravel"
+      "minecraft:disk_gravel",
+      "terralith:taiga/ore/patch_gravel"
     ],
-    [
-      "minecraft:rare_dripstone_cluster",
-      "minecraft:rare_small_dripstone"
-    ],
+    [],
     [
       "minecraft:patch_large_fern",
-      "minecraft:glow_lichen",
-      "minecraft:taiga_vegetation",
+      "terralith:taiga/rocks",
+      "terralith:taiga/trees_tall",
+      "terralith:taiga/mid/trees_mid",
+      "terralith:taiga/small/trees_small",
+      "terralith:taiga/tiny/trees_tiny",
+      "terralith:taiga/fence_trees",
       "minecraft:flower_default",
       "minecraft:patch_grass_taiga_2",
       "minecraft:brown_mushroom_taiga",
@@ -67,18 +80,32 @@
       "minecraft:red_mushroom_normal",
       "minecraft:patch_sugar_cane",
       "minecraft:patch_pumpkin",
-      "minecraft:spring_water",
-      "minecraft:spring_lava",
+      "minecraft:prototype_glow_lichen",
+"minecraft:prototype_spring_water",
+      "minecraft:prototype_spring_lava",
       "minecraft:patch_berry_sparse"
     ],
     [
-      "minecraft:freeze_top_layer"
+      "minecraft:freeze_top_layer",
+      "terralith:cave/generic/kill_bad_leaves",
+      "terralith:cave/lush/calcite_geode_gen",
+      "terralith:cave/lush/lush_caves_ceiling_vegetation",
+      "terralith:cave/lush/cave_vines",
+      "terralith:cave/lush/lush_caves_clay",
+      "terralith:cave/lush/lush_caves_vegetation",
+      "terralith:cave/lush/rooted_azalea_trees",
+      "terralith:cave/lush/spore_blossom",
+      "terralith:cave/lush/classic_vines_cave_feature",
+      "terralith:cave/dripstone/large_dripstone",
+      "terralith:cave/dripstone/iron_dripstone",
+      "terralith:cave/dripstone/dripstone_cluster",
+      "terralith:cave/dripstone/small_dripstone"
     ]
   ],
   "starts": [
     "minecraft:mineshaft",
     "minecraft:stronghold",
-    "minecraft:ruined_portal_mountain",
+    "minecraft:ruined_portal",
     "tcc:tundra_keep"
   ],
   "spawners": {
@@ -184,6 +211,9 @@
         "maxCount": 8
       }
     ],
+    "water_creature": [],
+    "water_ambient": [],
+    "misc": [],
     "underground_water_creature": [
       {
         "type": "minecraft:glow_squid",
@@ -197,16 +227,13 @@
         "minCount": 4,
         "maxCount": 6
       }
-    ],
-    "water_creature": [],
-    "water_ambient": [],
-    "misc": []
+    ]
   },
   "spawn_costs": {},
-  "player_spawn_friendly": false,
+  "player_spawn_friendly": true,
   "precipitation": "rain",
   "temperature": 0.25,
   "downfall": 0.8,
   "category": "taiga",
-  "depth": 0.3
+  "depth": 1.1
 }
